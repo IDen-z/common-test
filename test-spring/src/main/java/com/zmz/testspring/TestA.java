@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TestA implements ApplicationContextAware ,Comparable<String>{
+public class TestA implements ApplicationContextAware, Comparable<String> {
     private String a;
     private int b;
 
